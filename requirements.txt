@@ -1,0 +1,52 @@
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.6
+email-validator>=2.1.0
+
+# 数据库
+sqlalchemy[asyncio]>=2.0.0
+alembic>=1.13.0
+asyncpg>=0.29.0  # PostgreSQL异步驱动
+redis>=5.0.0     # 缓存支持
+
+# 认证和安全
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-dotenv>=1.0.0
+
+# 数据验证
+pydantic>=2.0.0
+pydantic-settings>=2.1.0
+email-validator>=2.1.0
+
+# 工具库
+python-dateutil>=2.8.2
+pytz>=2024.1
+aiofiles>=23.2.1    # 异步文件操作
+httpx>=0.26.0       # 异步HTTP客户端
+
+# 日志和监控
+loguru>=0.7.0
+prometheus-fastapi-instrumentator>=6.1.0
+opentelemetry-api>=1.22.0
+opentelemetry-sdk>=1.22.0
+opentelemetry-instrumentation-fastapi>=0.44b0
+
+# 测试工具
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+pytest-cov>=4.1.0
+httpx>=0.26.0
+asgi-lifespan>=2.1.0
+
+# 开发工具
+black>=24.1.0       # 代码格式化
+isort>=5.13.0       # import排序
+mypy>=1.8.0         # 类型检查
+ruff>=0.2.0         # 快速的Python linter
+pre-commit>=3.6.0   # Git hooks管理
+
+# 文档
+mkdocs>=1.5.0
+mkdocs-material>=9.5.0
+mkdocstrings[python]>=0.24.0 
